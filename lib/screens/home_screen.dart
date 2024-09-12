@@ -219,6 +219,10 @@ class _HomeScreenState extends State<HomeScreen> {
                               Column(
                                 crossAxisAlignment: CrossAxisAlignment.start,
                                 children: [
+                                  const MyText(
+                                      text: "Temp Max",
+                                      size: 12,
+                                      fontWeight: FontWeight.w100),
                                   MyText(
                                       text: state.weather.tempMax.toString(),
                                       size: 12,
